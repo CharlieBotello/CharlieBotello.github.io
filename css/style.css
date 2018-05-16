@@ -842,12 +842,16 @@ ol {
 .con-info .subtitle {
 	font-size: 12px;
 	margin-bottom: 15px;
+	color: #298ef6;
 }
 
+
 .con-info h2 {
-	font-size: 18px;
+	font-size: 30px;
 	line-height: 1.6;
 	font-weight: 500;
+	cursor: pointer;
+
 }
 
 .contact-form input {
@@ -875,6 +879,7 @@ ol {
 	border-color: #0fa049;
 	color: #fff;
 }
+.
 
 .contact-form #send-form.error {
 	background: #e20808;
@@ -887,6 +892,7 @@ ol {
 ----------------------*/
 .footer-section {
 	background: #040404;
+	padding: 35px 0;
 }
 
 .footer-section .social {
@@ -895,7 +901,7 @@ ol {
 }
 
 .footer-section .social a {
-	font-size: 30px;
+	font-size: 25px;
 	color: #f9f9f9;
 	display: inline-block;
 	margin: 0 15px;
@@ -910,8 +916,8 @@ ol {
 
 .copyright {
 	text-align: center;
-	font-size: 20px;
-	color: #fdfeff;
+	font-size: 12px;
+	color: #444;
 	line-height: 2;
 }
 
