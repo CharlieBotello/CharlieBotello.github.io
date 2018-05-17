@@ -480,6 +480,10 @@ ol {
 /*--------------------
 	Service Section
 ----------------------*/
+
+.service-section {
+	background: #f2f2f2;
+}
 /*.service-box {
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -640,9 +644,12 @@ ol {
 /*-----------------------
 	Portfolio Section
 -------------------------*/
+
+
 .portfolio-filter {
 	list-style: none;
 	margin-bottom: 40px;
+
 }
 
 .portfolio-filter li {
