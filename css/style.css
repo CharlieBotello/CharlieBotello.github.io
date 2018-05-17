@@ -480,12 +480,22 @@ ol {
 /*--------------------
 	Service Section
 ----------------------*/
-.service-box {
+/*.service-box {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top;
 	height: 300px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+}*/
+.service-box {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+	height: 400px;
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 30px;
@@ -741,9 +751,16 @@ ol {
 /*-----------------------
 	Testimonial Section
 -------------------------*/
-.testimonial-section {
+/*.testimonial-section {
 	background-image: url("../img/test-bg.png");
 	background-size: cover;
+	background-position: top center;
+	background-color: #298ef6;
+}*/
+
+.testimonial-section {
+	background-image: url("../img/test-bg.png");
+	background-size: 100% 100%;
 	background-position: top center;
 	background-color: #298ef6;
 }
@@ -760,6 +777,14 @@ ol {
 	font-size: 80px;
 	line-height: 80px;
 }
+.single-testimonial .qut span {
+	font-size: 22px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 5px;
+	}
+
+
 
 .single-testimonial p {
 	color: #fff;
