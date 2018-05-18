@@ -505,7 +505,7 @@ ol {
 	margin-bottom: 30px;
 }
 
-.service-box:hover .service-content, .service-box:active .service-content {
+.service-box:hover .service-content {
 	opacity: 1;
 }
 
@@ -1005,16 +1005,3 @@ ol {
 		font-size: 14px;
 	}
 }
-/*@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
-    .service-box {
-      -webkit-background-size: auto 150%;
-      background-attachment: scroll;
-    }
-}
-@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-
-    .service-box {
-      -webkit-background-size: 150% auto;
-      background-attachment: scroll;
-    }
-}*/
